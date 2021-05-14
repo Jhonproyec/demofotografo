@@ -1,0 +1,464 @@
+@media (max-width: 999px){
+  /* estilos generales */
+  .encabezado {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  /* ESTILOS MENU */
+  header .menu{
+    margin-top: 8px;
+  }
+  header .botonMenu{
+    width: 33px;
+    height: 33px;
+    display: block;
+    z-index: 100;
+    font-size: 30px;
+    color: #fff;
+    transition: .4s all;
+    cursor: pointer;
+  }
+  .abierto{
+    display: block;
+    color: #262626 !important;
+  }
+  nav{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    transform: translateX(100%);
+    transition: .4s all;
+  }
+  header .menu nav a{
+    width: 155px;
+    margin-top: 35px;
+    font-size: 20px;
+    color: #262626;
+    font-weight: bold;
+  }
+  .banner .contenidoBanner .slogan h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+  .banner .contenidoBanner .parrafo {
+    width: 60%;
+    font-size: 20px;
+  }
+  /* ESTILOS SOBRE MI */
+  .sobreMi p {
+    font-size: 19px;
+  }
+  /* HISTORIAS Y MOMENTO REALES */
+  .historias .encabezado{
+    font-size: 45px;
+  }
+  .historias img {
+    margin-top: 50px;
+  }
+  .historias p {
+    font-size: 19px;
+  }
+  /* Testimonios */
+  .clip-path img {
+    margin-top: -15px;
+} 
+  /* Articulos */
+  .articulos .card{
+    height: 495px;
+  }
+  .articulos h3{
+    font-size: 23px;
+  }
+  .articulos p{
+    font-size: 16px;
+  }
+  .articulos .card img {
+    max-height: 200px;
+  }
+  /* Estilos pagina sobre mi */
+  .experiencia {
+    font-size: 20px;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: 500px;
+    margin-top: 15px;
+  }
+  .descripcion {
+    font-size: 17px;
+  }
+  .contenidoSobremi .parrafo {
+    font-size: 18px;
+  }
+  .experiencia {
+    font-size: 17px;
+  }
+  /* ESTILOS PAGINA CONTACTO */
+  .contactoDescripcion{
+    width: 90%;
+    margin: auto;
+  }
+  .precios .card h2 {
+    font-size: 40px;
+  }
+  .precios ul li {
+    font-size: 15px;
+  }
+  .precios .botonConversemos {
+    margin-left: 0;
+    width: 229px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 780px){
+  .encabezado{
+    font-size: 40px;
+  }
+  header .menu .logo h1 a {
+    font-size: 22px;
+  }
+  .banner .contenidoBanner .slogan h2{
+    font-size: 35px;
+  }
+  .banner .contenidoBanner .parrafo {
+    font-size: 17px;
+  }
+  .banner .contenidoBanner a {
+    width: 229px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .sobreMi p {
+    font-size: 17px;
+  }
+  .sobreMi a {
+    width: 190px;
+    height: 35px;
+    line-height: 33px;
+    font-size: 16px;
+  }
+  .sobreMi img, .historias img {
+    height: 420px;
+    width: 85%;
+    margin-left: 37px;
+  }
+  .miTrabajo .verTrabajo {
+    width: 225px;
+    height: 37px;
+    line-height: 39px;
+    font-size: 18px;
+  }
+  .historias .encabezado {
+    font-size: 36px;
+  }
+  .historias p {
+    font-size: 18px;
+  }
+  .historias img {
+    margin-top: 14px;
+  }
+  .testimonios h2 {
+    font-size: 40px;
+  }
+  .testimonios .testimonio p {
+    font-size: 16px;
+  }
+  .clip-path img {
+    margin-top: 0px;
+  }
+  .articulos .card {
+    height: 575px;
+  }
+  .articulos .continuarViendo {   
+    font-size: 14px;
+  }
+  footer .contenedor .menuInfe a {
+    font-size: 16px;
+  }
+  footer .copy {
+    font-size: 13px;
+  }
+  /* ESTILOS PAGINA SOBRE MI */
+  .img-fluid {
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .contenidoSobremi {
+    padding: 20px;
+  }
+  /* ESTILOS PAGINA SINGLE Y SINGLE ALBUM */
+  .galeria{
+    width: 85%;
+  }
+}
+@media (max-width: 760px){
+  .encabezado {
+    font-size: 46px;
+    text-align: center;
+  }
+  .sobreMi p {
+    font-size: 19px;
+    text-align: center;
+  }
+  .sobreMi a {
+    width: 190px;
+    font-size: 19px;
+    margin: 0 auto 23px;
+    width: 230px;
+  }
+  .sobreMi img, .historias img {
+    display: block;
+    margin: auto;
+    height: 470px;
+    width: 88%;
+    
+  }
+  .historias img{
+    display: none;
+  }
+  .testimonios h2 {
+    font-size: 46px;
+  }
+  .clip-path img {
+    display: none;
+  }
+  .clip-path {
+    height: 330px;
+  }
+  .articulos h2 {
+    font-size: 25px;
+  }
+  .articulos .card {
+    height: 400px;
+  }
+  .articulos h3 {
+    font-size: 31px;
+    text-align: center;
+  }
+  .articulos p {
+    font-size: 18px;
+    text-align: center;
+  }
+  footer .contenedor{
+    width: 80%;
+  }
+  /* Estilos pagina sobre mi */
+  .experiencia .px-5 {
+    padding: 10px;
+  }
+  /* Estilos pagina contacto */
+  .precios .card h2 {
+    font-size: 55px;
+  }
+  .precios ul li {
+    font-size: 17px;
+  }
+  .precios .botonConversemos {
+    margin-left: 0;
+    width: 280px;
+    font-size: 18px;
+  }
+  .form {
+    width: 80%;
+  }
+  /* ESTILOS PAGINA SINGLE Y SINGLE ALBUM */
+  .galeria{
+    width: 95%;
+  }
+}
+@media (max-width: 590px){
+  header .menu nav a {
+    font-size: 17px;
+  }
+  .banner .contenidoBanner .slogan {
+    width: 97%;
+  }
+  .banner .contenidoBanner .slogan h2 {
+    font-size: 28px;
+  }
+  .banner .contenidoBanner .parrafo {
+    width: 70%;
+  }
+  .encabezado {
+    font-size: 39px;
+  }
+  .sobreMi p {
+    font-size: 16px;
+  }
+  .sobreMi a {
+    width: 183px;
+    font-size: 16px;
+  }
+  .historias p {
+    font-size: 16px;
+  }
+  .historias a {
+    width: 210px;
+    height: 38px;
+    line-height: 37px;
+    font-size: 16px;
+  }
+  .testimonios .mt-5 {
+    margin-top: 1rem!important;
+  }
+  .testimonios .testimonio p {
+    font-size: 15px;
+  }
+  .testimonios .testimonio h4 {
+    font-size: 14px;
+  }
+  .testimonios .testimonio cite {
+    color: #CC8157;
+    font-size: 13px;
+  }
+  .articulos .card {
+    height: 420px;
+  }
+  .articulos h3 {
+    font-size: 25px;
+  }
+  .articulos p {
+    font-size: 17px;
+    text-align: center;
+  }
+  footer .contenedor{
+    width: 80%;
+  }
+  footer .segundoMenu a, .menuContacto a{
+    font-size: 15px;
+  }
+  /* ESTILOS PAGINA SOBRE MI */
+  .img-fluid {
+    height: 500px;
+    width: 100%;
+  }
+  /* ESTILOS PAGINA CONTACTO */
+  .contactoDescripcion p {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .precios .card h2 {
+    font-size: 45px;
+  }
+  .precios ul li {
+    font-size: 15px;
+  }
+  .precios .botonConversemos {
+    width: 236px;
+    font-size: 15px;
+  }
+  .form {
+    width: 90%;
+  }
+  label{
+    font-size: 17px;
+  }
+  .enviar {
+    height: 31px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 470px){
+  header .menu .logo h1 a {
+    font-size: 19px;
+  }
+  .banner .contenidoBanner {
+    padding: 4%;
+  }
+  .banner .contenidoBanner .parrafo {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+  .banner .contenidoBanner .slogan {
+    width: 100%;
+  }
+  .banner .contenidoBanner .slogan h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .banner .contenidoBanner a {
+    width: 230px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 10px auto;
+  }
+  .encabezado {
+    font-size: 30px;
+  }
+  .sobreMi p {
+    font-size: 15px;
+  }
+  .historias .encabezado {
+    font-size: 30px;
+  }
+  .historias p {
+    font-size: 15px;
+  }
+  .testimonios h2 {
+    font-size: 35px;
+  }
+  .testimonios .testimonio p {
+    font-size: 14px;
+  }
+  .clip-path {
+    height: 340px;
+  }
+  .articulos h2 {
+    font-size: 22px;
+  }
+  .articulos .card {
+    height: 435px;
+  }
+  /* ESTILOS PAGINA SOBRE MI */
+  .contenidoSobremi .parrafo {
+    font-size: 16px;
+  }
+  .experiencia {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media (max-width: 385px){
+  .articulos .card {
+    height: 460px;
+  }
+  .articulos h3 {
+    font-size: 20px;
+  }
+  .articulos p {
+    font-size: 16px;
+    text-align: center;
+  }
+  footer .contenedor{
+    width: 95%;
+  }
+  footer .segundoMenu a, .menuContacto a{
+    font-size: 13px;
+  }
+  /* ESTILOS PAGINA SOBRE MI */
+  .experiencia {
+    font-size: 14px;
+  }
+  .experiencia .mt-4 {
+    margin-top: -10px;
+  }
+  /* estilos pagina contacto */
+  .precios .botonConversemos {
+    margin-left: -8px;
+    width: 211px;
+    font-size: 14px;
+  }
+  .contactoDescripcion{
+    width: 100%;
+  }
+}
